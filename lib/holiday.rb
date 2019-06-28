@@ -62,7 +62,7 @@ holiday_word = holiday.split("_").map do |word|
   word.capitalize!
 end.join(" ")
 
-puts "#{holiday_word}: #{supplies.to_s}"
+puts "#{holiday_word}: #{supplies.join(", ")}"
 end
 
     end
