@@ -58,7 +58,8 @@ puts "#{season.capitalize}:"
 
 holiday_and_supplies.each do |holiday, supplies|
 #binding.pry
-holiday_word = holiday.split("_").map do |word|
+
+holiday_word = holiday.to_s.split("_").map do |word|
   word.capitalize!
 end.join(" ")
 
