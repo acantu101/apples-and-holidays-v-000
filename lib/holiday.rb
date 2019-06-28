@@ -60,6 +60,7 @@ holiday_hash.each do |key, values|
   new_word.each do |words|
   new_word = words.capitalize!
   puts new_word.to_s
+    end
   end
 end
 
