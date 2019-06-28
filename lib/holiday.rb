@@ -58,7 +58,7 @@ holiday_hash.each do |key, values|
   new_word << key.to_s.split
   new_word << ":"
   new_word.each do |words|
-  new_word = words.capitalize!
+  new_word == words.capitalize!
   puts new_word.to_s
     end
   end
