@@ -57,7 +57,7 @@ holiday_hash.each do |season, holiday_and_supplies|
 
 holiday_and_supplies.each do |holiday, supplies|
 binding.pry
-puts "#{words.capitalize!.join()}:"
+puts "#{holiday}""
 
     end
   end
