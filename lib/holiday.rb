@@ -63,8 +63,6 @@ holiday_word = holiday.split("_").map do |word|
 end.join(" ")
 
 puts "#{holiday_word}: #{supplies.join(", ")}"
-end
-
     end
   end
 end
