@@ -54,7 +54,7 @@ end
 def all_supplies_in_holidays(holiday_hash)
 
 holiday_hash.each do |key, values|
-  key.to_s.split
+  puts key.to_s.split
   end
 end
 
