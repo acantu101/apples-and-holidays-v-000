@@ -54,7 +54,12 @@ end
 def all_supplies_in_holidays(holiday_hash)
 
 holiday_hash.each do |key, values|
-  puts key.to_s.split
+  new_word =[]
+  new_word << key.to_s.split
+  new_word << ":"
+  new_word.each do |words|
+  new_word = words.capitalize!
+  puts new_word.to_s
   end
 end
 
